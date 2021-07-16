@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "https://downloads.wordpress.org/plugin/jetpack.9.9.zip",
+    "./plugins/phpdoc-parser/",
+    "./plugins/handbook/",
+    "./plugins/wporg-markdown/",
+    "./plugins/wporg-cli/"
+
+  ],
+  "themes": [
+    "./themes/wporg-developer/"
+  ]
+}
