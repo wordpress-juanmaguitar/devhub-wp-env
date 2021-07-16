@@ -122,3 +122,28 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/juanma/.npm/_logs/2021-07-16T16_48_18_308Z-debug.log
 ```
+
+BTW, In the [error logs](logs-parser-create.txt) the last error is this one 
+
+```
+[31;1mError:[0m Please specify a valid user: --user=<id|login>
+```
+
+but the user with ID 1 has been properly created
+
+```
+(base) ⬢  devhub-env-dev  master ⦾ npm run wp-env run cli wp user list
+
+> demo-block-wp-env@1.0.0 wp-env /Users/juanma/PROJECTS/2021/WORDPRESS/DOCS/devhub-env-dev
+> wp-env "run" "cli" "wp" "user" "list"
+
+ℹ Starting 'wp user list' on the cli container.
+
+Creating fafc90e28b90c3e8daefc5a5bc8ed83a_cli_run ... done
++----+------------+--------------+-----------------------+---------------------+---------------+
+| ID | user_login | display_name | user_email            | user_registered     | roles         |
++----+------------+--------------+-----------------------+---------------------+---------------+
+| 1  | admin      | admin        | wordpress@example.com | 2021-07-16 10:59:30 | administrator |
++----+------------+--------------+-----------------------+---------------------+---------------+
+✔ Ran `wp user list` in 'cli'. (in 4s 606ms)
+```
