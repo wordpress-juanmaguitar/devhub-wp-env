@@ -95,7 +95,7 @@ The import process is scheduled to be executed every 15min in production but it 
 
 
 ```
-npm run wp-env cli wp cron event run devhub_blocks_import_manifest
-npm run wp-env cli wp cron event run devhub_blocks_import_all_markdown
+npm run wp-env run cli wp cron event run devhub_blocks_import_manifest
+npm run wp-env run cli wp cron event run devhub_blocks_import_all_markdown
 ```
 
