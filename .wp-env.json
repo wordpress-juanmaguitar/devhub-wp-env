@@ -9,5 +9,12 @@
   ],
   "themes": [
     "./themes/wporg-developer/"
-  ]
+  ],
+  "config": {
+    "WPORGPATH" : "./wp-content/themes/"
+  },
+  "mappings": {
+    "wp-content/themes/footer.php": "./themes/footer.php",
+    "wp-content/themes/header.php": "./themes/header.php"
+}
 }

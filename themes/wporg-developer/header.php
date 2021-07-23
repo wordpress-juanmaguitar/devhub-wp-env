@@ -55,3 +55,4 @@ require WPORGPATH . 'header.php';
 
 	<?php endif; ?>
 	<div id="content" class="site-content">
+	<?php wp_head(); ?>
