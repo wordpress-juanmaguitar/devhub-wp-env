@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repo is no longer needed and is no longer maintained.
+> To replicate a local version of [wordpress.org](https://wordpress.org/), the best place to go is https://github.com/WordPress/wporg-developer
+
 # DevHub development environment using `@wordpress/env`
 
 This project is an attempt of implementing a DevHub development environment using ([`@wordpress/env`](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/)) package, according to the instructions at https://make.wordpress.org/docs/handbook/devhub/
